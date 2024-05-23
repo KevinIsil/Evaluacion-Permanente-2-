@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo ul{
+    display: flex;
+    flex-direction: row;
+}
+#logo li{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+#menu ul{
+    display: flex;
+}
+#menu li{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+#logo li a{
+    text-decoration: none;
+    font-family: Verdana;
+    color: black;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    font-weight: 600;
+}
+#logo li a:hover{
+    color: rgba(0, 98, 65, 1);
+}
+#menu li a{
+    text-decoration: none;
+    font-family: 'SoDoSans-Regular';
+    font-size: 1.2em;
+}
+.menu1 a{
+    color: black;
+}
+.menu2 a{
+    border: 3px solid;
+    border-radius: 15px;
+    padding: 7px 20px;
+    color: black;
+}
+.menu3 a{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 7px 20px;
+    background-color: black;
+    color: white;
+}
+.menu1 a:hover{
+    color: rgba(0, 98, 65, 1);
+}
+.menu2 a:hover{
+    color: rgba(0, 98, 65, 1);
+}
+.menu3 a:hover{
+    background-color: rgba(0, 98, 65, 1);
+}
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+#articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+#articulos img{
+    height: 800px;
+    width: 800px;
+}
+#articulos li a{
+    color: white;
+    background-color: rgba(0, 98, 65, 1);
+}
+.articulo1{
+    display: flex;
+}
+.cuadro1{
+    background: rgba(215, 218, 88, 1);
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.cuadro1 li{
+    list-style: none;
+}
+.cuadro1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    border: 1px solid rgba(0, 98, 65, 1);
+    border-radius: 10px;
+    padding: 16px 28px;
+}
+.articulo2{
+    display: flex;
+    flex-direction: row;
+}
+.cuadro2{
+    background: rgba(232, 186, 157, 1);
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.cuadro2 li{
+    list-style: none;
+}
+.cuadro2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    border: 1px solid rgba(0, 98, 65, 1);
+    border-radius: 10px;
+    padding: 16px 28px;
+}
+h1{
+    color: rgba(0, 98, 65, 1);
+    font-size: 3em;
+}
+p{
+    color: rgba(0, 98, 65, 1);
+    font-size: 20px;
+}
+#menu-dos ul{
+    display: flex;    
+    justify-content: space-around;
+    padding: 30px;
+}
+#menu-dos li{
+    list-style: none;
+    text-decoration: none;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+/*MENÚ*/
+
+#contenido2{
+    display: flex;
+    justify-content: center;
+}
+#titulo-lista li{
+    display: flex;
+    padding: 0 273px;
+}
+#titulo-lista li a{
+    color: black;
+    margin: 5px;
+    padding: 20px;
+}
+#lista-menu{
+    width: 200px;
+    margin: 15px;
+    padding: 20px;
+}
+#lista-menu li{
+    list-style: none;
+    margin: 20px;
+}
+#lista-menu h2{
+    font-size: 1.1em;
+}
+#productos{
+    margin: 15px;
+    padding: 20px;
+    width: 800px;
+}
+#productos h3{
+    padding: 0 0 48px;
+    font-size: 20px;
+}
+#productos h4{
+    font-size: 25px;
+    padding: 10px 0;
+}
+#productos h5{
+    font-size: 20px;
+}
+#productos img{
+    height: 150px;
+}
+#bebidas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#bebidas div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.mover1{
+    margin: 0 48px;
+}
+.mover2{
+    margin: 0 -18px;
+}
